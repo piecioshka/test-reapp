@@ -1,3 +1,22 @@
+# test-reapp
+
+## Start
+
+Command to develop:
+
+```
+reapp run
+```
+
+which start server on default port (3010).
+
+Command to buidl package:
+```
+reapp build
+```
+
+## Details
+
 This is the repository used to start new reapp apps from the CLI.
 
 It's copied into a new folder when you run the command `reapp new`.
