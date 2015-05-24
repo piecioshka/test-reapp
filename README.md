@@ -8,12 +8,14 @@ Command to develop:
 reapp run
 ```
 
-which start server on default port (3010).
+which start server on default port (`3010`).
 
-Command to buidl package:
+Command to build package:
 ```
 reapp build
 ```
+
+which create `build/web/` directory with app package.
 
 ## Details
 
