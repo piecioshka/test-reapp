@@ -8,7 +8,7 @@ class Home extends React.Component {
           <p>Hello, World!</p>
 
           <Button onTap={() => this.router().transitionTo('sub')}>
-            Go to sub view
+            Lubie placki
           </Button>
         </View>
 
