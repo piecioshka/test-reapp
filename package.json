@@ -8,10 +8,14 @@
   "reapp": "0.8",
   "scripts": {
     "test": "",
-    "start": "reapp run"
+    "start": "reapp run",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "react": "0.13.2",
-    "reapp-kit": "^1.2.0"
-  }
+    "reapp-kit": "^1.2.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
